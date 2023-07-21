@@ -1,0 +1,39 @@
+.friendMessage {
+
+}
+
+.friendImageAndText {
+    display: inline-flex;
+}
+
+.friendImageAndText img {
+    width: 80px;
+}
+
+.friendText {
+    border: 1px solid gainsboro;
+    margin-left: 20px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: gainsboro;
+    color: black;
+    clip-path: polygon(5% 0, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 0 100%, 5% 75%);
+}
+
+.friendText:after {
+
+}
+
+.friendName {
+
+}
+
+.friendMessageText {
+
+}
+
+.friendTime {
+    margin-left: 20px;
+}
