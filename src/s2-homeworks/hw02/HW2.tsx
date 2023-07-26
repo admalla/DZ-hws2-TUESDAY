@@ -37,7 +37,7 @@ const defaultAffairs: AffairType[] = [
 
 // pure helper functions
 export const filterAffairs = (affairs: AffairType[], filter: FilterType): any => {
-    return affairs.filter(a => a.priority !== filter)
+    return affairs.filter(a => a.priority === filter)
 }
 export const deleteAffair = (affairs: AffairType[], _id: number): any => {
     return affairs.filter(a => a._id !== _id)
