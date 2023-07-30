@@ -13,7 +13,7 @@ export const pureAddUser = (name: string, setError: React.Dispatch<React.SetStat
         setError('Ошибка! Введите имя!')
     } else {
         addUserCallback(name)
-        setName('    ')
+        setName('')
     }
 }
 
