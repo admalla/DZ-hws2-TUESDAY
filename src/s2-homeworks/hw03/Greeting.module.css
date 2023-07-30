@@ -1,25 +1,39 @@
 .greetingForm {
+    background: aqua;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .inputAndButtonContainer {
+    margin: 10px 0;
 }
 
 .error {
 }
 
 .input {
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border: 1px solid red;
+    outline: none;
+    background: #e37d92;
 }
 
 .button {
+    width: 100px;
+    border-radius: 10px;
 }
 
 .button:focus {
+    box-shadow: 0px 0px 9px 3px cadetblue;
 }
 
 .button:active {
@@ -29,6 +43,7 @@
 }
 
 .text {
+    font-weight: bold;
 }
 
 .greeting {

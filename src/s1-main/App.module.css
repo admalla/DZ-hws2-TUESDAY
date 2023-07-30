@@ -1,5 +1,6 @@
 .App {
     --header_height: 60px;
+    padding: 30px;
 }
 
 .hw {
@@ -7,5 +8,7 @@
 }
 
 .hwTitle {
-
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
 }
