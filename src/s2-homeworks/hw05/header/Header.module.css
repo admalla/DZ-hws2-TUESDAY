@@ -1,8 +1,16 @@
 .burgerMenuIcon {
+    margin: 10px 30px;
+    cursor: pointer;
 }
 
 .header {
+    /*position: relative;*/
+    width: 100%;
+    background: #f4f4f4;
 }
 
 .header h1 {
+    position: fixed;
+    right: 80px;
+    top: 25px
 }
