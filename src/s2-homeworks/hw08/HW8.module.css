@@ -1,23 +1,36 @@
 .item {
+    border-bottom: 1px solid cadetblue;
 }
 
 .item:last-of-type {
+    border-bottom: none;
 }
 
 .users {
+    border-collapse: collapse;
+    width: 700px;
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 .buttonsContainer {
+    margin-left: 300px;
 }
 
 .container {
+    width: 700px;
 }
 
 .thead {
+    font-weight: bold;
+    background: cadetblue;
+
 }
 
 .nameCol {
+    padding: 3px;
 }
 
 .ageCol {
+
 }
