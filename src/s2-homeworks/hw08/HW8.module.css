@@ -14,7 +14,10 @@
 }
 
 .buttonsContainer {
-    margin-left: 300px;
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+    align-items: end;
 }
 
 .container {
