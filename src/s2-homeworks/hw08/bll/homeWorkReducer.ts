@@ -8,14 +8,14 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
     switch (action.type) {
         case 'sort': { // by name
             state.sort((a: UserType, b: UserType) => {
-                if(action.payload === 'down') return  a.name.localeCompare(b.name, 'ru')
-                if(action.payload === 'up') return  b.name.localeCompare(a.name, "ru")
+                if(action.payload === 'up') return  a.name.localeCompare(b.name, 'ru')
+                if(action.payload === 'down') return  b.name.localeCompare(a.name, "ru")
                 return 0
             })
             return state
         }
         case 'check': {
-            return state.filter(u => u.age > action.payload)
+            return [...state.filter(u => u.age >= action.payload)]
         }
         default:
             return state
