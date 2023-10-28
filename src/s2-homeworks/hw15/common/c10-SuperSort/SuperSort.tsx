@@ -6,10 +6,10 @@ import uIcon from '../angle-small-up.png'
 
 // добавить в проект иконки и импортировать
 // const downIcon = '[\\/]'
-const downIcon = dIcon
+const downIcon = uIcon
 
 // const upIcon = '[/\\]'
-const upIcon = uIcon
+const upIcon = dIcon
 
 // const noneIcon = '[--]'
 const noneIcon = upIdown
