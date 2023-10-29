@@ -1,15 +1,15 @@
 import React from 'react'
-import dIcon from '../free-icon-font-angle-small-down-3916864.png'
+import uIcon from '../free-icon-font-angle-small-down-3916864.png'
 import upIdown from '../up-and-down-arrow.png'
-import uIcon from '../angle-small-up.png'
+import dIcon from '../angle-small-up.png'
 
 
 // добавить в проект иконки и импортировать
 // const downIcon = '[\\/]'
-const downIcon = uIcon
+const downIcon = dIcon
 
 // const upIcon = '[/\\]'
-const upIcon = dIcon
+const upIcon = uIcon
 
 // const noneIcon = '[--]'
 const noneIcon = upIdown
@@ -46,8 +46,6 @@ const SuperSort: React.FC<SuperSortPropsType> = (
     : sort === up
       ? upIcon
       : noneIcon
-
-  console.log(up)
 
   return (
     <span
